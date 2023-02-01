@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Getting Started => Create React App with Typescript
+
+Create a folder, open cmd or terminal and run this command 
+### `npx reate-react-app app-name --template typescript`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
