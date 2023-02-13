@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-  // sum function with props types
-  interface IProps {
-    name: string;
-  }
+  function ToggleBtn() {
+    const [checked, setChecked] = useState(false);
 
-  function ToggleBtn(props: IProps) {
-    const [] = useState(false);
     return (
-      <>
-        {props.name}
-      </>
+      <div>
+        <input type="checkbox" checked={checked} onClick={(e:any)=> setChecked(e.target.checked)} />
+        Toggle with state
+      </div>
     )
   }
 

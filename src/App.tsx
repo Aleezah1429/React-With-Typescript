@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Test from './Test';
+import ToggleBtn from './ToggleButton';
+import Form from './Form';
 
 function App() {
 
@@ -35,6 +37,8 @@ function App() {
 
 
       <Test name='Aleezah' />
+      <ToggleBtn />
+      <Form />
 
 
     </div>
